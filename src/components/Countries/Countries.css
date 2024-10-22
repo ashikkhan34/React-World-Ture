@@ -1,0 +1,15 @@
+.country-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+
+.visited{
+    background-color: #ffb1d1;
+    color: black;
+}
+
+@media screen and (max-width: 768px) {
+    .country-container{
+        grid-template-columns: repeat(1,1fr);
+    }
+}
